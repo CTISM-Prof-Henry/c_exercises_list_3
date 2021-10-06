@@ -4,10 +4,18 @@
 
 
 double calcula_altura(double distancia, double angulo) {
-    return sin(angulo) * distancia;
+    // TODO implemente seu código aqui
+    return -1;
+    // TODO implemente seu código aqui
 }
 
-
+/**
+ * Use esta função para testar seu código.
+ *
+ * Você não precisa entender o que está acontecendo aqui; apenas rode a função e veja se seu código está certo!
+ *
+ * NÃO A MODIFIQUE! Isso pode causar problemas no testador automático.
+ */
 int main() {
     double angulo = 0.698132;
     double distancia = 8000;

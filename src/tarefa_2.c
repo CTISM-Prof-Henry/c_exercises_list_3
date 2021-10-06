@@ -4,25 +4,22 @@
 
 #define N_POS 9
 
-#define M_PI 3.14159265
-
-double degrees_to_radians(int degrees) {
-    return (double)degrees * M_PI/180;
-}
-
 void preenche_seno(double *vec, int length) {
-    int basis[N_POS] = {0, 45, 90, 135, 180, 225, 270, 315, 360};
-
-    for(int i = 0; i < length; i++) {
-        vec[i] = sin(degrees_to_radians(basis[i]));
-    }
+    // TODO implemente seu código aqui
 }
 
+/**
+ * Use esta função para testar seu código.
+ *
+ * Você não precisa entender o que está acontecendo aqui; apenas rode a função e veja se seu código está certo!
+ *
+ * NÃO A MODIFIQUE! Isso pode causar problemas no testador automático.
+ */
 int main() {
     int graus[N_POS] = {0, 45, 90, 135, 180, 225, 270, 315, 360};
     double senos[N_POS] = {0, 0.707107, 1, 0.707107, 0, -0.707107, -1, -0.707107, 0};
 
-    double vec[N_POS];
+    double vec[N_POS] = {-1, -1, -1, -1, -1, -1, -1, -1, -1};
 
     preenche_seno(&vec[0], N_POS);
 
