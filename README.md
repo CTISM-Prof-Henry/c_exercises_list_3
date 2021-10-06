@@ -12,18 +12,19 @@
   
    ![aviao](images/aviao.png)
 
-7. Um menino avista o ponto mais alto de um morro, conforme figura abaixo. Considerando que ele está a uma distância de 
+5. Um menino avista o ponto mais alto de um morro, conforme figura abaixo. Considerando que ele está a uma distância de 
    `x` metros da base do morro, calcule a altura `h` deste ponto.
+
    ![morro](images/morro.png)
 
 ## Nota
 
 Todas as funções valem a mesma quantidade de pontos. A nota do trabalho é 
-`número de questões corretamente resolvidas / total questões`. Por exemplo, resolveu 3 questões de 10, a nota é 3.
+`número de questões corretamente resolvidas / total questões`. Por exemplo, resolveu 3 questões de 6, a nota é 5.
 
 ## Como entregar este trabalho
 
-Você não precisa me entregar nada. Eu já tenho acesso ao seu repositório /mwahaha
+Você não precisa me entregar nada. Eu já tenho acesso ao seu repositório.
 
 **CONTUDO**, não esqueça de enviar as suas modificações para o repositório remoto do Github:
 
