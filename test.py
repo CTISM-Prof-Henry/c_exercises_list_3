@@ -19,7 +19,7 @@ def generic_assignment_tester(id_tarefa):
     return_code = 0
 
     try:
-        subprocess.run(['gcc', os.path.join(read_path, some_file), '-o', output_file], check=True)
+        subprocess.run(['gcc', os.path.join(read_path, some_file), '-o', output_file, '-lm'], check=True)
 
         subprocess.run([output_file], check=True)
     except subprocess.CalledProcessError:
