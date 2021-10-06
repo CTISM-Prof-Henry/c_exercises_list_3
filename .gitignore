@@ -54,3 +54,4 @@ gabarito/
 gabarito.*
 .idea/
 cmake-build-debug/
+.pytest_cache
